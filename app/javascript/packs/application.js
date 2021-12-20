@@ -7,7 +7,20 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
+import jQuery from "jquery"
+import "bootstrap"
+import "typeahead.bundle"
+import "easyddrop"
+import "memenu"
+import "mem"
+import "responsiveslides.min"
+import "responsive"
+import "imagezoom"
+import "flexs";
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+jQuery.start()
+
+
